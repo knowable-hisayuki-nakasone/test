@@ -20,10 +20,10 @@ class BattleController extends BaseController
 //    private $url;
 
 
-    public function IndexAction()
+    public function indexAction()
     {
         // 初期化
-        if($this->Initialize()){
+        if($this->initialize()){
 
 
         }else{
@@ -32,7 +32,7 @@ class BattleController extends BaseController
         }
 
     }
-    private function Initialize(){
+    private function initialize(){
 
         $this->view->assign("systemRoot", $this->systemRoot);
         $this->view->assign("mtRand", mt_rand());

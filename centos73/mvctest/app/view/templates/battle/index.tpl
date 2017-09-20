@@ -1,6 +1,6 @@
-{include file='../Common/header.tpl'}
+{include file='../common/header.tpl'}
 <link type="text/css" rel="stylesheet" href="app/src/styles/scss/battle.scss?{$mtRand}">
 <div id="wraper">
     バトル
 </div>
-{include file='../Common/footer.tpl'}
+{include file='../common/footer.tpl'}
