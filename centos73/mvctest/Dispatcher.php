@@ -58,7 +58,7 @@ class Dispatcher
         // 2番目のパラメーターをコントローラーとして取得
         $this->action= 'index';
 
-        if ( ($this->paramLevel + 1) < count($params)) {
+        if (($this->paramLevel + 1) < count($params)) {
             $this->action= $params[($this->paramLevel + 1)];
         }
         $controllerInstance->setSystemRoot($this->sysRoot);
