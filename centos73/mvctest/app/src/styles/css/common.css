@@ -1,0 +1,7 @@
+/* line 2, ../scss/common.scss */
+.wraper {
+  width: 1136px;
+  height: 640px;
+  background: #ff0000;
+  margin: 0 auto;
+}
