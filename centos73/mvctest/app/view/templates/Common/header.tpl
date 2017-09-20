@@ -7,8 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link type="text/css" rel="stylesheet" href="app/src/styles/scss/common.scss?{$mtRand}">
-
+    <link type="text/css" rel="stylesheet" href="app/src/styles/css/reset.css?{$mtRand}">
+    <link type="text/css" rel="stylesheet" href="app/src/styles/css/include.css?{$mtRand}">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
     {*<link rel="stylesheet" href="">*}
     <!--[if lt IE 9]>
     <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
