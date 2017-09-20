@@ -5,7 +5,6 @@
  * Date: 2017/09/19
  * Time: 14:40
  */
-//require_once ('Smarty.class.php');
 
 class BaseController
 {
@@ -20,7 +19,6 @@ class BaseController
     // コンストラクタ
     //ビューインスタンス化
     public function __construct(){
-
 
     }
 

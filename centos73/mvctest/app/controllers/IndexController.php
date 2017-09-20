@@ -19,16 +19,19 @@ class IndexController extends BaseController
 //    private $url;
 
     // コンストラクタ
-//    protected function __construct()
-//    {
-////        $this->__construct();
-////        $this->view = new Smarty();
-//
-//    }
+    protected function construct()
+    {
+//        $this->__construct();
+
+
+    }
 
     public function indexAction()
     {
+        $mtRand = mt_rand();
 
+        $this->view->assign("systemRoot", $this->systemRoot);
+        $this->view->assign("mtRand", $mtRand);
     }
     public function hogeAction()
     {
