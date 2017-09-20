@@ -10,7 +10,7 @@ require_once('BaseController.php');
 require_once ('Smarty.class.php');
 class BattleController extends BaseController
 {
-//リクエスト
+    //リクエスト
 //    private $request;
 //    //モデルs
 //    private $model;
@@ -19,20 +19,25 @@ class BattleController extends BaseController
 //    //ビューで表示するURL
 //    private $url;
 
-    // コンストラクタ
-    protected function construct()
-    {
-//        $this->__construct();
 
+    public function IndexAction()
+    {
+        // 初期化
+        if($this->Initialize()){
+
+
+        }else{
+            // NotData Redirect
+
+        }
 
     }
-
-    public function indexAction()
-    {
-        $mtRand = mt_rand();
+    private function Initialize(){
 
         $this->view->assign("systemRoot", $this->systemRoot);
-        $this->view->assign("mtRand", $mtRand);
+        $this->view->assign("mtRand", mt_rand());
+
+        return true;
     }
 
 

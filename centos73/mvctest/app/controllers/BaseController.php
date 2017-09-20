@@ -19,7 +19,6 @@ class BaseController
     // コンストラクタ
     //ビューインスタンス化
     public function __construct(){
-
     }
 
     // システムのルートディレクトリパスを設定

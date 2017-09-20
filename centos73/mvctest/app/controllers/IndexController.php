@@ -18,13 +18,6 @@ class IndexController extends BaseController
 //    //ビューで表示するURL
 //    private $url;
 
-    // コンストラクタ
-    protected function construct()
-    {
-//        $this->__construct();
-
-
-    }
 
     public function indexAction()
     {
