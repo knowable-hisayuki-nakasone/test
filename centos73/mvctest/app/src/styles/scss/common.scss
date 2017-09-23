@@ -1,7 +1,36 @@
 
-.wraper{
+#wraper{
   width: 1136px;
   height: 640px;
   background: #ff0000;
   margin: 0 auto;
+
+  .popup_area{
+
+    .popup1{
+      background: #000;
+      position: absolute;
+      display: none;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      width: 500px;
+      height: 400px;
+      z-index: 999;
+      .content{
+        position: relative;
+      }
+    }
+  }
+}
+
+.clouse{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background: pink;
 }

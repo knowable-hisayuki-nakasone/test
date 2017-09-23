@@ -25,7 +25,7 @@ class BattleController extends BaseController
         // 初期化
         if($this->initialize()){
 
-
+            $this->view->assign("bg_image", $this->src_path . "images/background/bg1.png");
         }else{
             // NotData Redirect
 
@@ -33,7 +33,7 @@ class BattleController extends BaseController
 
     }
     private function initialize(){
-
+        $this->view->assign("src_path", $this->src_path);
         $this->view->assign("systemRoot", $this->systemRoot);
         $this->view->assign("mtRand", mt_rand());
 

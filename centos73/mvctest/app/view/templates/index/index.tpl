@@ -1,6 +1,6 @@
 {include file='../common/header.tpl'}
 <link type="text/css" rel="stylesheet" href="app/src/styles/scss/header.scss?{$mtRand}">
-<div id="wraper">
+<div id="battle_content">
 
     <form action="index" method="post">
 
