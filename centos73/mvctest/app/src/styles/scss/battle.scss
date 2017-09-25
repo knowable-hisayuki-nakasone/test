@@ -1,0 +1,84 @@
+@mixin base_content(){
+  width: 49%;
+  height: 500px;
+  display: inline-block;
+}
+
+#wraper{
+  &.back_image{
+    background-size: 1136px auto;
+    background-position: left center;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+  .header_content{
+    ul{
+      overflow: hidden;
+      li{
+
+        display: inline-block;
+        width: 300px;
+        height: 100px;
+        margin-right: 10px;
+        &.buttons{
+          background: red;
+        }
+      }
+
+
+    }
+  }
+
+  .left_cotent{
+    @include base_content();
+
+    #enemy{
+
+    }
+  }
+
+  .right_cotent{
+    @include base_content();
+    position: relative;
+    @for $i from 1 through 5 {
+      .character_#{$i}{
+        @if $i == 1{
+          top: 50px;
+          left: 100px;
+        }
+        @if $i == 2{
+          top: 215px;
+          left: 100px;
+        }
+        @if $i == 3{
+          top: 380px;
+          left: 100px;
+        }
+        @if $i == 4{
+          top: 140px;
+          left: 240px;
+        }
+        @if $i == 5{
+          top: 310px;
+          left: 240px;
+        }
+        position: absolute;
+        z-index: 1;
+        width: 100px;
+        height: 150px;
+        background: red;
+        margin: 10px;
+      }
+    }
+
+  }
+}
+
+
+
+
+
+
+
+

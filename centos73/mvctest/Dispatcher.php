@@ -66,8 +66,7 @@ class Dispatcher
         // 処理実行
         $controllerInstance->run();
         // アクションメソッドを実行
-        $actionMethod = $this->action . 'Action';
-        $controllerInstance->$actionMethod();
+
 
     }
 

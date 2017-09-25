@@ -1,0 +1,90 @@
+/* line 8, ../scss/battle.scss */
+#wraper.back_image {
+  background-size: 1136px auto;
+  background-position: left center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+/* line 16, ../scss/battle.scss */
+#wraper .header_content ul {
+  overflow: hidden;
+}
+/* line 18, ../scss/battle.scss */
+#wraper .header_content ul li {
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+  margin-right: 10px;
+}
+/* line 24, ../scss/battle.scss */
+#wraper .header_content ul li.buttons {
+  background: red;
+}
+/* line 33, ../scss/battle.scss */
+#wraper .left_cotent {
+  width: 49%;
+  height: 500px;
+  display: inline-block;
+}
+/* line 41, ../scss/battle.scss */
+#wraper .right_cotent {
+  width: 49%;
+  height: 500px;
+  display: inline-block;
+  position: relative;
+}
+/* line 45, ../scss/battle.scss */
+#wraper .right_cotent .character_1 {
+  top: 50px;
+  left: 100px;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  height: 150px;
+  background: red;
+  margin: 10px;
+}
+/* line 45, ../scss/battle.scss */
+#wraper .right_cotent .character_2 {
+  top: 215px;
+  left: 100px;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  height: 150px;
+  background: red;
+  margin: 10px;
+}
+/* line 45, ../scss/battle.scss */
+#wraper .right_cotent .character_3 {
+  top: 380px;
+  left: 100px;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  height: 150px;
+  background: red;
+  margin: 10px;
+}
+/* line 45, ../scss/battle.scss */
+#wraper .right_cotent .character_4 {
+  top: 140px;
+  left: 240px;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  height: 150px;
+  background: red;
+  margin: 10px;
+}
+/* line 45, ../scss/battle.scss */
+#wraper .right_cotent .character_5 {
+  top: 310px;
+  left: 240px;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  height: 150px;
+  background: red;
+  margin: 10px;
+}

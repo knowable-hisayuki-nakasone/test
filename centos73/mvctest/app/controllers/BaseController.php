@@ -15,10 +15,15 @@ class BaseController
     protected $view;
     protected $request;
     protected $templatePath;
+    protected $style_sheet_path;
+
+
 
     // コンストラクタ
     //ビューインスタンス化
     public function __construct(){
+
+        $this->src_path = "/centos73/mvctest/app/src/";
 
     }
 
@@ -62,10 +67,15 @@ class BaseController
     protected function initializeView()
     {
         $this->view = new Smarty();
+        $this->view->force_cache = true;
+        $this->view->clearAllCache();
+
         $this->view->template_dir = sprintf('%s/view/templates/', $this->systemRoot);
         $this->view->compile_dir = sprintf('%s/view/templates_c', $this->systemRoot);
         $this->view->cache_dir = sprintf('%s/cache', $this->systemRoot);
         $this->templatePath = sprintf('%s/%s.tpl', $this->controller, $this->action);
+
+
     }
 
     // 共通前処理（オーバーライド前提）
