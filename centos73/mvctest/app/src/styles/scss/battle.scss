@@ -44,23 +44,23 @@
     @for $i from 1 through 5 {
       .character_#{$i}{
         @if $i == 1{
-          top: 70px;
+          top: 50px;
           left: 100px;
         }
         @if $i == 2{
-          top: 235px;
+          top: 215px;
           left: 100px;
         }
         @if $i == 3{
-          top: 400px;
+          top: 380px;
           left: 100px;
         }
         @if $i == 4{
-          top: 160px;
+          top: 140px;
           left: 240px;
         }
         @if $i == 5{
-          top: 330px;
+          top: 310px;
           left: 240px;
         }
         position: absolute;

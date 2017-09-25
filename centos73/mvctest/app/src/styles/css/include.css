@@ -12,7 +12,7 @@
 }
 /* line 10, ../scss/common.scss */
 #wraper .popup_area .popup1 {
-  background: #000;
+  background: rgba(255, 255, 255, 0.5);
   position: absolute;
   display: none;
   left: 0;
@@ -24,12 +24,14 @@
   height: 400px;
   z-index: 999;
 }
-/* line 22, ../scss/common.scss */
+/* line 23, ../scss/common.scss */
 #wraper .popup_area .popup1 .content {
   position: relative;
+  overflow: hidden;
+  padding-top: 80px;
 }
 
-/* line 29, ../scss/common.scss */
+/* line 32, ../scss/common.scss */
 .clouse {
   position: absolute;
   top: 0;
@@ -37,6 +39,13 @@
   width: 50px;
   height: 50px;
   background: pink;
+}
+
+/* line 41, ../scss/common.scss */
+.status_area {
+  margin: 0 0 10px;
+  padding: 10px;
+  border: solid 1px red;
 }
 
 /* line 3, ../scss/animation.scss */

@@ -35,7 +35,7 @@
 }
 /* line 45, ../scss/battle.scss */
 #wraper .right_cotent .character_1 {
-  top: 70px;
+  top: 50px;
   left: 100px;
   position: absolute;
   z-index: 1;
@@ -46,7 +46,7 @@
 }
 /* line 45, ../scss/battle.scss */
 #wraper .right_cotent .character_2 {
-  top: 235px;
+  top: 215px;
   left: 100px;
   position: absolute;
   z-index: 1;
@@ -57,7 +57,7 @@
 }
 /* line 45, ../scss/battle.scss */
 #wraper .right_cotent .character_3 {
-  top: 400px;
+  top: 380px;
   left: 100px;
   position: absolute;
   z-index: 1;
@@ -68,7 +68,7 @@
 }
 /* line 45, ../scss/battle.scss */
 #wraper .right_cotent .character_4 {
-  top: 160px;
+  top: 140px;
   left: 240px;
   position: absolute;
   z-index: 1;
@@ -79,7 +79,7 @@
 }
 /* line 45, ../scss/battle.scss */
 #wraper .right_cotent .character_5 {
-  top: 330px;
+  top: 310px;
   left: 240px;
   position: absolute;
   z-index: 1;
