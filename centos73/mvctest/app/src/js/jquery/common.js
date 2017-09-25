@@ -3,10 +3,18 @@
  */
 
 
+/*
+*
+* 共通ポップアップ
+*
+* **/
+var commonPopUp = function(objectName,isOpen) {
 
-var commonPopUp = function(objectName) {
 
-
+    if(!isOpen){
+        $(objectName).hide();
+        return true;
+    }
     $(objectName).show();
 
 
@@ -15,8 +23,3 @@ var commonPopUp = function(objectName) {
     });
     return true;
 };
-
-function StatusContent() {
-
-
-}

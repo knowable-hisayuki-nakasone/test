@@ -4,9 +4,9 @@
 
     <div class="status_area">
         <p>
+            <span class="detail"></span>
         </p>
-        <input type="hidden" value="" class="btn" name="attack">
-        <input type="button" value="攻撃" class="btn" name="">
+        <input type="button" value="攻撃" class="btn_attack" name="">
     </div>
 
 </div>
